@@ -29,7 +29,7 @@ export default defineConfig({
   title: 'FMHY',
   description: meta.description,
   titleTemplate: ':title • freemediaheckyeah',
-  lang: 'en-US',
+  lang: 'zh-CN',
   lastUpdated: false,
   cleanUrls: true,
   appearance: true,

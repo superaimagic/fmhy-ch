@@ -1,21 +1,21 @@
 ---
-title: Selfhosting FMHY
-description: This guide will help you set up and run your own instance of FMHY locally.
+title: 自托管 FMHY
+description: 本指南将帮助你在本地设置并运行自己的 FMHY 实例。
 ---
 
-# Selfhosting
+# 自托管
 
 :::warning
-Do note that you **must** differentiate your instance from the official site (fmhy.net) to avoid confusion. Steps to do so are given in step 4.
+请注意，你**必须**将你的实例与官方网站（fmhy.net）区分开来，以避免混淆。具体步骤见第 4 步。
 :::
 
-This guide will help you set up and run your own instance of FMHY locally.
+本指南将帮助你在本地设置并运行自己的 FMHY 实例。
 
-### Docker (Experimental)
+### Docker（实验性）
 
-To run a local instance, you will need to install [Docker](https://docs.docker.com/get-docker/) and [Docker Compose](https://docs.docker.com/compose/install/).
+要运行本地实例，你需要安装 [Docker](https://docs.docker.com/get-docker/) 和 [Docker Compose](https://docs.docker.com/compose/install/)。
 
-After installing both, run the following commands:
+安装完成后，运行以下命令：
 
 ```bash
 git clone https://github.com/fmhy/edit.git
@@ -23,165 +23,165 @@ cd edit
 sudo docker compose up --build
 ```
 
-It might take a few minutes to build the image and start the container, running at port 4173.
+构建镜像并启动容器可能需要几分钟，运行在 4173 端口。
 
 ### Nix Flake
 
-You can use [nix](https://nixos.org/) to set up a development environment, we have a [flake](https://nixos.wiki/wiki/Flakes) that setups `nodejs` and `pnpm`.
+你可以使用 [nix](https://nixos.org/) 来设置开发环境，我们有一个 [flake](https://nixos.wiki/wiki/Flakes) 可以配置 `nodejs` 和 `pnpm`。
 
-1. Fork the repository and clone it to your local machine with `git clone https://github.com/fmhy/edit.git`.
-2. Run `nix flake update` to update the flake lock file.
-3. Run `nix develop` to enter the development environment.
-4. Make your changes.
-5. Exit the development environment by running `exit`.
+1. Fork 仓库并使用 `git clone https://github.com/fmhy/edit.git` 克隆到本地。
+2. 运行 `nix flake update` 更新 flake 锁文件。
+3. 运行 `nix develop` 进入开发环境。
+4. 进行修改。
+5. 运行 `exit` 退出开发环境。
 
-### Manually
+### 手动安装
 
-You will need to install the following:
+你需要安装以下工具：
 - [Git](https://git-scm.com/downloads)
-- [Node.js](https://nodejs.org/en/download/) - Install version 25.2.1
+- [Node.js](https://nodejs.org/en/download/) - 安装 25.2.1 版本
 - [pnpm 9.12.2+](https://pnpm.io/installation)
 
-#### Step 1: Clone the Repository
+#### 第 1 步：克隆仓库
 
 ```bash
 git clone https://github.com/fmhy/edit.git
 cd edit
 ```
 
-#### Step 2: Install Dependencies
+#### 第 2 步：安装依赖
 
-Install project dependencies using pnpm:
+使用 pnpm 安装项目依赖：
 
 ```bash
 pnpm install
 ```
 
-#### Step 3: Development Mode
+#### 第 3 步：开发模式
 
-To run the project in development mode:
+以开发模式运行项目：
 
 ```bash
-# Start the documentation site in dev mode
+# 以开发模式启动文档站点
 pnpm docs:dev
 
-# Start the API in dev mode (if needed)
+# 以开发模式启动 API（如需要）
 pnpm api:dev
 ```
 
-The development server will start at `http://localhost:5173` by default.
+开发服务器默认在 `http://localhost:5173` 启动。
 
-#### Step 4: Building for Production
+#### 第 4 步：生产构建
 
-You will need to update:
-- `meta`: Constant in `docs/.vitepress/constants.ts`
-  - `name`: Name of your instance
-  - `hostname`: Your domain
-  - `description`: Description of your instance
-  - `tags`: Opengraph tags
-  - `build`: Build options (can be configured with [Environment Variables](/other/selfhosting#environment-variables))
+你需要更新以下内容：
+- `meta`：`docs/.vitepress/constants.ts` 中的常量
+  - `name`：你的实例名称
+  - `hostname`：你的域名
+  - `description`：你的实例描述
+  - `tags`：OpenGraph 标签
+  - `build`：构建选项（可通过[环境变量](/other/selfhosting#environment-variables)配置）
 - `docs/index.md`
   - `title`
   - `description`
   - `hero.name`
   - `hero.tagline`
 
-To build the project for production:
+构建生产版本：
 
 ```bash
-# Build the documentation site
+# 构建文档站点
 pnpm docs:build
 
-# Build the API (if needed) using the Node.js preset
+# 构建 API（如需要），使用 Node.js 预设
 NITRO_PRESET=node pnpm api:build
 ```
 
-#### Step 5: Preview Production Build
+#### 第 5 步：预览生产构建
 
-To preview the production build locally:
+在本地预览生产构建：
 
 ```bash
-# Preview the documentation site
+# 预览文档站点
 pnpm docs:preview
 
-# Preview the API (if needed)
+# 预览 API（如需要）
 pnpm api:preview
 ```
 
-#### Step 6: Deploy
+#### 第 6 步：部署
 
-See the [VitePress deployment guide](https://vitepress.dev/guide/deploy) for more info.
+详情请参阅 [VitePress 部署指南](https://vitepress.dev/guide/deploy)。
 
-### API Deployment
+### API 部署
 
-If you want to deploy the API component (feedback system), you'll need to set up Cloudflare Workers and KV storage.
+如果你想部署 API 组件（反馈系统），你需要设置 Cloudflare Workers 和 KV 存储。
 
-#### Prerequisites
+#### 前提条件
 
-- A [Cloudflare account](https://dash.cloudflare.com/sign-up)
-- [Wrangler CLI](https://developers.cloudflare.com/workers/wrangler/install-and-update/) installed globally
+- 一个 [Cloudflare 账户](https://dash.cloudflare.com/sign-up)
+- 全局安装 [Wrangler CLI](https://developers.cloudflare.com/workers/wrangler/install-and-update/)
 
-#### Step 1: Configure Wrangler
+#### 第 1 步：配置 Wrangler
 
-Update `wrangler.toml` with your Cloudflare account information:
+使用你的 Cloudflare 账户信息更新 `wrangler.toml`：
 
-1. Get your account ID from the Cloudflare dashboard (found in the right sidebar)
-2. Replace the `account_id` value in `wrangler.toml` with your account ID
-3. If you're using a custom domain, keep `workers_dev = false` and update the `routes` section
-4. If you're deploying to `*.workers.dev`, set `workers_dev = true` and remove the `routes` section
+1. 从 Cloudflare 控制面板获取你的账户 ID（在右侧边栏中）
+2. 将 `wrangler.toml` 中的 `account_id` 值替换为你的账户 ID
+3. 如果你使用自定义域名，保持 `workers_dev = false` 并更新 `routes` 部分
+4. 如果你部署到 `*.workers.dev`，设置 `workers_dev = true` 并删除 `routes` 部分
 
-#### Step 2: Create KV Namespace
+#### 第 2 步：创建 KV 命名空间
 
-Create a KV namespace for data storage:
+创建用于数据存储的 KV 命名空间：
 
 ```bash
 npx wrangler kv:namespace create STORAGE
 ```
 
-This command will return a namespace ID. Copy this ID and replace the `id` value in the `[[kv_namespaces]]` section of `wrangler.toml` (line 14).
+此命令将返回一个命名空间 ID。复制此 ID 并替换 `wrangler.toml` 中 `[[kv_namespaces]]` 部分（第 14 行）的 `id` 值。
 
-**Note:** If you want to deploy without running Wrangler locally (e.g., in CI/CD), you'll need to:
-1. Create the KV namespace manually in the Cloudflare dashboard
-2. Update both the `account_id` and `id` values in `wrangler.toml` in your fork
+**注意：** 如果你不想在本地运行 Wrangler 来部署（例如在 CI/CD 中），你需要：
+1. 在 Cloudflare 控制面板中手动创建 KV 命名空间
+2. 在你的 fork 中更新 `wrangler.toml` 中的 `account_id` 和 `id` 值
 
-#### Step 3: Build and Deploy
+#### 第 3 步：构建并部署
 
-Build and deploy the API:
+构建并部署 API：
 
 ```bash
-# Build the API
+# 构建 API
 pnpm api:build
 
-# Deploy to Cloudflare Workers
+# 部署到 Cloudflare Workers
 pnpm api:deploy
 ```
 
-The API will be deployed to your configured domain or `*.workers.dev` subdomain.
+API 将部署到你配置的域名或 `*.workers.dev` 子域名。
 
-#### Rate Limiting (Optional)
+#### 速率限制（可选）
 
-The rate limiter binding requires setup through the Cloudflare dashboard. You can skip this for basic deployments or configure it later through the Workers dashboard under the "Rate limiting" section.
+速率限制器绑定需要通过 Cloudflare 控制面板进行设置。基本部署可以跳过此项，或稍后通过 Workers 控制面板的"Rate limiting"部分进行配置。
 
-#### Environment Variables
+#### 环境变量
 
-##### Build-time Variables (for Documentation)
+##### 构建时变量（用于文档）
 
-These variables control what gets included when building the documentation site:
+这些变量控制构建文档站点时包含的内容：
 
-- `FMHY_BUILD_NSFW` - Enable NSFW sidebar entry (experimental)
-- `FMHY_BUILD_API` - Enable API component for feedback system
+- `FMHY_BUILD_NSFW` - 启用 NSFW 侧边栏条目（实验性）
+- `FMHY_BUILD_API` - 启用反馈系统的 API 组件
 
-##### Runtime Variables (for API Worker)
+##### 运行时变量（用于 API Worker）
 
-These variables are used by the deployed Cloudflare Worker API:
+这些变量由已部署的 Cloudflare Worker API 使用：
 
-- `WEBHOOK_URL` - Discord webhook URL for posting feedback messages (required for API feedback functionality)
+- `WEBHOOK_URL` - 用于发布反馈消息的 Discord Webhook URL（API 反馈功能必需）
 
-#### Troubleshooting
+#### 故障排除
 
-1. If you encounter Node.js version issues, ensure you're using Node.js 21+
-2. For pnpm-related issues, ensure you're using pnpm 9+
-3. If you encounter build issues, try clearing cache:
+1. 如果遇到 Node.js 版本问题，请确保使用 Node.js 21+
+2. 对于 pnpm 相关问题，请确保使用 pnpm 9+
+3. 如果遇到构建问题，尝试清除缓存：
     ```bash
     # Linux
     rm -rf docs/.vitepress/cache
@@ -190,6 +190,6 @@ These variables are used by the deployed Cloudflare Worker API:
     rm -r -fo docs/.vitepress/cache
     ```
 
-### Reverse Proxy
+### 反向代理
 
-You should be able to use any reverse proxy with this vitepress website, but find a reasonable config for an nginx server [in the repo here](https://github.com/fmhy/edit/blob/main/.github/assets/nginx.conf)
+你应该能够将任何反向代理与此 VitePress 网站配合使用，但可以在[仓库这里](https://github.com/fmhy/edit/blob/main/.github/assets/nginx.conf)找到合理的 nginx 服务器配置

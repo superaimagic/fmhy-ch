@@ -1,6 +1,6 @@
 ---
-title: Wallpapers
-description: Elevate yourself to the next level with our beautiful wallpapers.
+title: 壁纸
+description: 用我们精美的壁纸提升你的桌面品味。
 next: false
 prev: false
 ---
@@ -9,15 +9,15 @@ prev: false
 import WallpaperCard from '../.vitepress/theme/components/WallpaperCard.vue'
 </script>
 
-# Wallpapers
+# 壁纸
 
-Elevate yourself to the next level with our beautiful wallpapers.
+用我们精美的壁纸提升你的桌面品味。
 
-All of these wallpapers were made by [taskylizard](https://github.com/taskylizard).
+所有壁纸均由 [taskylizard](https://github.com/taskylizard) 制作。
 
 <WallpaperCard
-  title="Arc"
-  description="A rounded arc design with a pleasing fade."
+  title="弧光"
+  description="圆弧设计搭配柔和渐变。"
   mobile="https://cdn.jsdelivr.net/gh/fmhy/design-system/branding/arc_mobile.png"
   desktop="https://cdn.jsdelivr.net/gh/fmhy/design-system/branding/arc_desktop.png"
 />
@@ -25,8 +25,8 @@ All of these wallpapers were made by [taskylizard](https://github.com/taskylizar
 ---
 
 <WallpaperCard
-  title="Rays"
-  description="A gradient background with a soft, rounded arc."
+  title="光芒"
+  description="渐变背景搭配柔和圆弧。"
   mobile="https://cdn.jsdelivr.net/gh/fmhy/design-system/branding/rays_mobile.png"
   desktop="https://cdn.jsdelivr.net/gh/fmhy/design-system/branding/rays_desktop.png"
 />
@@ -34,8 +34,8 @@ All of these wallpapers were made by [taskylizard](https://github.com/taskylizar
 ---
 
 <WallpaperCard
-  title="Tinted Rays"
-  description="A gradient background with a soft, rounded arc. Tinted white at the bottom corner."
+  title="淡彩光芒"
+  description="渐变背景搭配柔和圆弧，底部角落淡白色调。"
   mobile="https://cdn.jsdelivr.net/gh/fmhy/design-system/branding/tinted_rays_mobile.png"
   desktop="https://cdn.jsdelivr.net/gh/fmhy/design-system/branding/tinted_rays_desktop.png"
 />

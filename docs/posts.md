@@ -1,6 +1,6 @@
 ---
-title: Posts
-description: All our posts, sorted by date.
+title: 文章
+description: 我们的所有文章，按日期排序。
 editLink: false
 outline: false
 next: false

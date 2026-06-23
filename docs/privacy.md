@@ -1,80 +1,80 @@
 ***
 ***
-**[◄◄ Back to Wiki Index](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/index)**
+**[◄◄ 返回 Wiki 索引](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/index)**
 ***
 ***
 
-# ► Adblocking
+# ► 广告拦截
 
-* **Note** - Many sites contain ads, popups or redirects, so we [highly recommend](https://fmhy.net/beginners-guide#adblocking) using an adblocker. Don't run multiple general adblockers (e.g., uBlock Origin and AdGuard) simultaneously to [avoid breakage](https://x.com/gorhill/status/1033706103782170625). Combining general adblockers with tools like SponsorBlock is fine. Also note full version of uBO works significantly better than the lite version.
-
-***
-
-* ↪️ **[Spotify Adblockers](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/audio/#wiki_.25BA_spotify_tools)**
-* ↪️ **[Twitch Adblockers](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/social-media#wiki_.25B7_twitch_adblockers)**
-* ↪️ **[Bypass URL Redirects](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/internet-tools/#wiki_.25B7_redirect_bypass)**
-* ↪️ **[Bypass Article Paywalls](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/internet-tools#wiki_.25B7_paywall_bypass)**
-* ⭐ **[uBlock Origin](https://github.com/gorhill/uBlock)**, [AdGuard](https://github.com/AdguardTeam/AdguardBrowserExtension) or [uBO Lite](https://github.com/uBlockOrigin/uBOL-home) (MV3) / [Note](https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/ubo-lite.md) - Adblockers / [Redundant Extensions](https://github.com/arkenfox/user.js/wiki/4.1-Extensions/#-dont-bother)
-* ⭐ **Report Issues** - [uAssets](https://github.com/uBlockOrigin/uAssets/issues) / [Hosts](https://github.com/uBlockOrigin/uAssets/discussions/27472) / [AdGuard](https://reports.adguard.com/new_issue.html) / [EasyList](https://github.com/easylist/easylist/issues)
-* ⭐ **[SponsorBlock](https://sponsor.ajay.app/)** - Skip Sponsored YouTube Ads / [X](https://x.com/SponsorBlock) / [Subreddit](https://www.reddit.com/r/SponsorBlock/) / [Discord](https://discord.gg/SponsorBlock) / [GitHub](https://github.com/ajayyy/SponsorBlock)
-* ⭐ **SponsorBlock Tools** - [Bookmarklet](https://github.com/mchangrh/sb.js) / [Script](https://greasyfork.org/en/scripts/453320) / [Ports](https://github.com/ajayyy/SponsorBlock/wiki/3rd-Party-Ports) / [Database](https://sb.ltn.fi/) / [Chromecast](https://github.com/gabe565/CastSponsorSkip)
-* [Disblock Origin](https://codeberg.org/AllPurposeMat/Disblock-Origin) or [Discord Adblock](https://codeberg.org/ridge/Discord-AdBlock) - Hide Discord Nitro / Boost Ads
-* [Popup Blocker (strict)](https://github.com/schomery/popup-blocker), [Popupblocker All](https://addons.mozilla.org/firefox/addon/popupblockerall/) / [2](https://chromewebstore.google.com/detail/popupblocker/doklmegfghlnanggfgligimnnikiekde) or [PopUpOFF](https://popupoff.org/) - Popup Blockers / [Userscript](https://github.com/AdguardTeam/PopupBlocker)
-* [BehindTheOverlay](https://github.com/NicolaeNMV/BehindTheOverlay) - Hide Website Overlays
-* [BilibiliSponsorBlock](https://www.bsbsb.top/) - Skip Sponsored Bilibili Ads / [GitHub](https://github.com/hanydd/BilibiliSponsorBlock)
+* **注意** - 许多网站包含广告、弹窗或重定向，因此我们[强烈建议](https://fmhy.net/beginners-guide#adblocking)使用广告拦截器。不要同时运行多个通用广告拦截器（如 uBlock Origin 和 AdGuard）以[避免冲突](https://x.com/gorhill/status/1033706103782170625)。将通用广告拦截器与 SponsorBlock 等工具组合使用是可以的。另外请注意，uBO 完整版的效果远优于精简版。
 
 ***
 
-## ▷ Adblock Filters
-
-* **Note** - Always check extra uBO filters in settings before trying third-party filter lists.
-
-***
-
-* 🌐 **[FilterLists](https://filterlists.com/)** - Filter / Host List Directory
-* ⭐ **[LegitimateURLShortener](https://raw.githubusercontent.com/DandelionSprout/adfilt/refs/heads/master/LegitimateURLShortener.txt)** - Query Parameter Cleaning Rules / Use w/ AdGuard URL Tracking Protection
-* ⭐ **[Hagezi Blocklists](https://github.com/hagezi/dns-blocklists)** / [2](https://gitlab.com/hagezi/mirror) - Blocklist Collection / Use Mini Edition / [Note](https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/hagezi.md)
-* [blacklist](https://github.com/anudeepND/blacklist) - Blocklist Collection / [Whitelist Note](https://github.com/anudeepND/blacklist#common-issues)
-* [FMHY Filterlist](https://github.com/fmhy/FMHYFilterlist) - Unsafe Sites Filter
-* [AI uBlock Blacklist](https://github.com/alvi-se/ai-ublock-blacklist) - Blocks AI Generated Sites
-* [⁠Huge AI Blocklist](https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist) - Removes AI Imagery from Search Engines 
-
-***
-
-## ▷ DNS Adblocking
-
-* **Note** - If your goal is to block browser ads, it's best to just stick with uBlock Origin, as additional filters can cause conflicts or anti-adblock.
+* ↪️ **[Spotify 广告拦截器](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/audio/#wiki_.25BA_spotify_tools)**
+* ↪️ **[Twitch 广告拦截器](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/social-media#wiki_.25B7_twitch_adblockers)**
+* ↪️ **[绕过 URL 重定向](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/internet-tools/#wiki_.25B7_redirect_bypass)**
+* ↪️ **[绕过文章付费墙](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/internet-tools#wiki_.25B7_paywall_bypass)**
+* ⭐ **[uBlock Origin](https://github.com/gorhill/uBlock)**、[AdGuard](https://github.com/AdguardTeam/AdguardBrowserExtension) 或 [uBO Lite](https://github.com/uBlockOrigin/uBOL-home) (MV3) / [备注](https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/ubo-lite.md) - 广告拦截器 / [冗余扩展](https://github.com/arkenfox/user.js/wiki/4.1-Extensions/#-dont-bother)
+* ⭐ **反馈问题** - [uAssets](https://github.com/uBlockOrigin/uAssets/issues) / [Hosts](https://github.com/uBlockOrigin/uAssets/discussions/27472) / [AdGuard](https://reports.adguard.com/new_issue.html) / [EasyList](https://github.com/easylist/easylist/issues)
+* ⭐ **[SponsorBlock](https://sponsor.ajay.app/)** - 跳过 YouTube 赞助广告 / [X](https://x.com/SponsorBlock) / [Subreddit](https://www.reddit.com/r/SponsorBlock/) / [Discord](https://discord.gg/SponsorBlock) / [GitHub](https://github.com/ajayyy/SponsorBlock)
+* ⭐ **SponsorBlock 工具** - [书签脚本](https://github.com/mchangrh/sb.js) / [脚本](https://greasyfork.org/en/scripts/453320) / [第三方移植](https://github.com/ajayyy/SponsorBlock/wiki/3rd-Party-Ports) / [数据库](https://sb.ltn.fi/) / [Chromecast](https://github.com/gabe565/CastSponsorSkip)
+* [Disblock Origin](https://codeberg.org/AllPurposeMat/Disblock-Origin) 或 [Discord Adblock](https://codeberg.org/ridge/Discord-AdBlock) - 隐藏 Discord Nitro / Boost 广告
+* [Popup Blocker (strict)](https://github.com/schomery/popup-blocker)、[Popupblocker All](https://addons.mozilla.org/firefox/addon/popupblockerall/) / [2](https://chromewebstore.google.com/detail/popupblocker/doklmegfghlnanggfgligimnnikiekde) 或 [PopUpOFF](https://popupoff.org/) - 弹窗拦截器 / [用户脚本](https://github.com/AdguardTeam/PopupBlocker)
+* [BehindTheOverlay](https://github.com/NicolaeNMV/BehindTheOverlay) - 隐藏网站遮罩层
+* [BilibiliSponsorBlock](https://www.bsbsb.top/) - 跳过 B站赞助广告 / [GitHub](https://github.com/hanydd/BilibiliSponsorBlock)
 
 ***
 
-* 🌐 **[DNS Providers](https://adguard-dns.io/kb/general/dns-providers/)** - DNS Provider Index
-* ↪️ **[Free DNS Resolvers](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/storage#wiki_free_dns_resolvers)**
-* ⭐ **[Pi-Hole](https://pi-hole.net/)** - Self-Hosted DNS Adblocking / [X](https://x.com/The_Pi_Hole) / [Subreddit](https://reddit.com/r/pihole/) / [GitHub](https://github.com/pi-hole)
-* ⭐ **Pi-Hole Tools** - [Filters](https://firebog.net/) / [Tray App](https://github.com/PinchToDebug/Pihole-Tray/) / [Android Server](https://github.com/DesktopECHO/Pi-hole-for-Android) (root)
-* ⭐ **[AdGuard Home](https://adguard.com/en/adguard-home/overview.html)** - Self-Hosted DNS Adblocking / [Balena-AdGuard](https://github.com/klutchell/balena-adguard) / [X](https://x.com/adguard) / [Subreddit](https://reddit.com/r/Adguard) / [Telegram](https://t.me/adguarden) / [GitHub](https://github.com/AdguardTeam/AdGuardHome)
-* ⭐ **[Mullvad DNS](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls/)** - DNS Adblocking / Filtering / [Extension](https://mullvad.net/en/download/browser/extension) / [GitHub](https://github.com/mullvad)
-* [DNS Speed Test](https://dnsspeedtest.online/) / [GitHub](https://github.com/BrainicHQ/DoHSpeedTest), [DNS Perf](https://dnsperf.com/dns-speed-benchmark) or [NameBench](https://code.google.com/archive/p/namebench/) - DNS Speed Tests
-* [YogaDNS](https://yogadns.com/) - Custom DNS Client for Windows
-* [NextDNS](https://nextdns.io) - Customizable DNS Adblocking Service / [Guide](https://github.com/yokoffing/NextDNS-Config) / [Video](https://youtu.be/WUG57ynLb8I) / [GitHub](https://github.com/nextdns/nextdns)
-* [LibreDNS](https://libredns.gr/) - DNS Adblocking / [GitLab](https://gitlab.com/libreops/libredns)
-* [Tiarap](https://doh.tiar.app/) - DNS Adblocking / [GitHub](https://github.com/pengelana/blocklist)
-* [Rethink DNS](https://rethinkdns.com/configure) - DNS Adblocking / [Subreddit](https://www.reddit.com/r/rethinkdns/) / [Telegram](https://t.me/rethinkdns)
-* [DNSWarden](https://dnswarden.com/) - DNS Adblocking / [GitHub](https://github.com/bhanupratapys/dnswarden)
-* [Blocky](https://0xerr0r.github.io/blocky/latest/) - DNS Adblocking / [GitHub](https://github.com/0xERR0R/blocky)
-* [AdGuard DNS](https://adguard-dns.io/) - Customizable DNS Adblocking Service / [X](https://x.com/adguard) / [Subreddit](https://reddit.com/r/Adguard) / [Telegram](https://t.me/adguarden)
-* [Control D](https://controld.com/free-dns) - Customizable DNS Adblocking Service / [X](https://x.com/controldns) / [Subreddit](https://reddit.com/r/ControlD/) / [Discord](https://discord.gg/dns)
-* [NxFilter](https://nxfilter.org/) - Self-Hosted Customizable DNS Adblocking / [Subreddit](https://reddit.com/r/nxfilter)
-* [TBlock](https://tblock.me/) - DNS Adblocking Client / [Source Code](https://codeberg.org/tblock/tblock)
-* [Diversion](https://diversion.ch/) - Asuswrt-Merlin Router Adblock Manager
-* [Phishing Army](https://phishing.army/) - DNS Phishing Blocklist / [X](https://x.com/PhishingArmy)
-* [Technitium](https://technitium.com/dns) - Self-Hosted DNS Server / [Subreddit](https://reddit.com/r/technitium/) / [GitHub](https://github.com/TechnitiumSoftware/DnsServer)
+## ▷ 广告拦截过滤器
+
+* **注意** - 在尝试第三方过滤列表之前，请务必先检查 uBO 设置中的额外过滤器。
 
 ***
 
-## ▷ DNS Filters
+* 🌐 **[FilterLists](https://filterlists.com/)** - 过滤器 / Host 列表目录
+* ⭐ **[LegitimateURLShortener](https://raw.githubusercontent.com/DandelionSprout/adfilt/refs/heads/master/LegitimateURLShortener.txt)** - 查询参数清理规则 / 配合 AdGuard URL Tracking Protection 使用
+* ⭐ **[Hagezi Blocklists](https://github.com/hagezi/dns-blocklists)** / [2](https://gitlab.com/hagezi/mirror) - 屏蔽列表合集 / 使用 Mini 版 / [备注](https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/hagezi.md)
+* [blacklist](https://github.com/anudeepND/blacklist) - 屏蔽列表合集 / [白名单备注](https://github.com/anudeepND/blacklist#common-issues)
+* [FMHY Filterlist](https://github.com/fmhy/FMHYFilterlist) - 不安全网站过滤器
+* [AI uBlock Blacklist](https://github.com/alvi-se/ai-ublock-blacklist) - 屏蔽 AI 生成网站
+* [⁠Huge AI Blocklist](https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist) - 从搜索引擎中移除 AI 图像
 
-* ⭐ **[Hagezi Blocklists](https://github.com/hagezi/dns-blocklists)** - Multi-Source Domain Blocklist / Use Full Edition / [Note](https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/hagezi.md)
-* ⭐ **[OISD](https://oisd.nl/)** - Multi-Source Domain Blocklist / [GitHub](https://github.com/sjhgvr/oisd)
+***
+
+## ▷ DNS 广告拦截
+
+* **注意** - 如果你的目标是拦截浏览器广告，最好坚持使用 uBlock Origin，因为额外的过滤器可能导致冲突或触发反广告拦截。
+
+***
+
+* 🌐 **[DNS 提供商](https://adguard-dns.io/kb/general/dns-providers/)** - DNS 提供商索引
+* ↪️ **[免费 DNS 解析器](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/storage#wiki_free_dns_resolvers)**
+* ⭐ **[Pi-Hole](https://pi-hole.net/)** - 自托管 DNS 广告拦截 / [X](https://x.com/The_Pi_Hole) / [Subreddit](https://reddit.com/r/pihole/) / [GitHub](https://github.com/pi-hole)
+* ⭐ **Pi-Hole 工具** - [过滤器](https://firebog.net/) / [托盘应用](https://github.com/PinchToDebug/Pihole-Tray/) / [Android 服务器](https://github.com/DesktopECHO/Pi-hole-for-Android) (root)
+* ⭐ **[AdGuard Home](https://adguard.com/en/adguard-home/overview.html)** - 自托管 DNS 广告拦截 / [Balena-AdGuard](https://github.com/klutchell/balena-adguard) / [X](https://x.com/adguard) / [Subreddit](https://reddit.com/r/Adguard) / [Telegram](https://t.me/adguarden) / [GitHub](https://github.com/AdguardTeam/AdGuardHome)
+* ⭐ **[Mullvad DNS](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls/)** - DNS 广告拦截 / 过滤 / [扩展](https://mullvad.net/en/download/browser/extension) / [GitHub](https://github.com/mullvad)
+* [DNS Speed Test](https://dnsspeedtest.online/) / [GitHub](https://github.com/BrainicHQ/DoHSpeedTest)、[DNS Perf](https://dnsperf.com/dns-speed-benchmark) 或 [NameBench](https://code.google.com/archive/p/namebench/) - DNS 速度测试
+* [YogaDNS](https://yogadns.com/) - Windows 自定义 DNS 客户端
+* [NextDNS](https://nextdns.io) - 可定制 DNS 广告拦截服务 / [指南](https://github.com/yokoffing/NextDNS-Config) / [视频](https://youtu.be/WUG57ynLb8I) / [GitHub](https://github.com/nextdns/nextdns)
+* [LibreDNS](https://libredns.gr/) - DNS 广告拦截 / [GitLab](https://gitlab.com/libreops/libredns)
+* [Tiarap](https://doh.tiar.app/) - DNS 广告拦截 / [GitHub](https://github.com/pengelana/blocklist)
+* [Rethink DNS](https://rethinkdns.com/configure) - DNS 广告拦截 / [Subreddit](https://www.reddit.com/r/rethinkdns/) / [Telegram](https://t.me/rethinkdns)
+* [DNSWarden](https://dnswarden.com/) - DNS 广告拦截 / [GitHub](https://github.com/bhanupratapys/dnswarden)
+* [Blocky](https://0xerr0r.github.io/blocky/latest/) - DNS 广告拦截 / [GitHub](https://github.com/0xERR0R/blocky)
+* [AdGuard DNS](https://adguard-dns.io/) - 可定制 DNS 广告拦截服务 / [X](https://x.com/adguard) / [Subreddit](https://reddit.com/r/Adguard) / [Telegram](https://t.me/adguarden)
+* [Control D](https://controld.com/free-dns) - 可定制 DNS 广告拦截服务 / [X](https://x.com/controldns) / [Subreddit](https://reddit.com/r/ControlD/) / [Discord](https://discord.gg/dns)
+* [NxFilter](https://nxfilter.org/) - 自托管可定制 DNS 广告拦截 / [Subreddit](https://reddit.com/r/nxfilter)
+* [TBlock](https://tblock.me/) - DNS 广告拦截客户端 / [源代码](https://codeberg.org/tblock/tblock)
+* [Diversion](https://diversion.ch/) - Asuswrt-Merlin 路由器广告拦截管理器
+* [Phishing Army](https://phishing.army/) - DNS 钓鱼屏蔽列表 / [X](https://x.com/PhishingArmy)
+* [Technitium](https://technitium.com/dns) - 自托管 DNS 服务器 / [Subreddit](https://reddit.com/r/technitium/) / [GitHub](https://github.com/TechnitiumSoftware/DnsServer)
+
+***
+
+## ▷ DNS 过滤器
+
+* ⭐ **[Hagezi Blocklists](https://github.com/hagezi/dns-blocklists)** - 多源域名屏蔽列表 / 使用 Full 版 / [备注](https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/hagezi.md)
+* ⭐ **[OISD](https://oisd.nl/)** - 多源域名屏蔽列表 / [GitHub](https://github.com/sjhgvr/oisd)
 * [hBlock](https://github.com/hectorm/hblock)
 * [Hosts File Aggregator](https://github.com/StevenBlack/hosts)
 * [Spamhaus](https://www.spamhaus.org/blocklists/) / [X](https://x.com/spamhaus)
@@ -85,447 +85,112 @@
 
 ***
 
-## ▷ [Linux Adblocking](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/linux#wiki_.25B7_adblock_.2F_privacy)
+## ▷ [Linux 广告拦截](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/linux#wiki_.25B7_adblock_.2F_privacy)
 
 ***
 
-## ▷ [Mac Adblocking](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/linux#wiki_.25B7_mac_adblock_.2F_privacy)
+## ▷ [Mac 广告拦截](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/linux#wiki_.25B7_mac_adblock_.2F_privacy)
 
 ***
 
-## ▷ [Android Adblocking](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android#wiki_.25B7_android_adblocking)
+## ▷ [Android 广告拦截](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android#wiki_.25B7_android_adblocking)
 
 ***
 
-## ▷ [iOS Adblocking](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android#wiki_.25B7_ios_adblocking)
+## ▷ [iOS 广告拦截](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android#wiki_.25B7_ios_adblocking)
 
 ***
 
-# ► Antivirus / Anti-Malware
+# ► 杀毒 / 反恶意软件
 
-* **Note** - It's best to keep Windows Defender's real-time protection on. You can select ‘Allow on device’ for pirated software detections like patches, or exclude by ‘File‘ in ‘Exclusions’ for false positives when needed + [More Info](https://wispydocs.pages.dev/windows/#antivirus).
+* **注意** - 最好保持 Windows Defender 实时保护开启。对于破解软件检测（如补丁），你可以选择"在设备上允许"；对于误报，可以在"排除项"中按"文件"排除 + [更多信息](https://wispydocs.pages.dev/windows/#antivirus)。
 ***
 
-* ↪️ **[Virtual Machines](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/system-tools#wiki_.25B7_virtual_machines)**
-* ⭐ **[Malwarebytes](https://www.malwarebytes.com/)** / [X](https://x.com/malwarebytes) or [ESET](https://rentry.co/FMHYB64#eset) - Antivirus
-* ⭐ **[AdwCleaner](https://www.malwarebytes.com/adwcleaner/)** - Anti-Adware / [X](https://x.com/malwarebytes)
-* ⭐ **[Triage](https://tria.ge/)**, [ANY.RUN](https://any.run/) / [Discord](https://discord.gg/anyrun) / [Note](https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/anyrun-note.md) or [Cuckoo](https://cuckoo.cert.ee/) / [2](https://sandbox.pikker.ee/) - Online Sandboxes
-* ⭐ **[Security / Antivirus Multireddit](https://www.reddit.com/user/goretsky/m/security/)** - Reddit Communities
-* ⭐ **[FMHY SafeGuard](https://fmhy.github.io/FMHY-SafeGuard/)** - Detects if Current Site is Trusted / Untrusted / [GitHub](https://github.com/fmhy/FMHY-SafeGuard)
-* [BleepingComputer](https://www.bleepingcomputer.com/forums/f/22/virus-trojan-spyware-and-malware-removal-help/), [Malwarebytes Forums](https://forums.malwarebytes.com/forum/7-windows-malware-removal-help-support/) or [Sysnative](https://www.sysnative.com/forums/forums/security-arena.66/) - Malware Removal Forums / [Note](https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/malware-removal-forums.md)
-* [⁠rifteyy](https://rifteyy.org/) - Malware Removal Guides / Blog 
-* [Sandboxie Plus](https://sandboxie-plus.com/) - Sandbox Environment / [Guide](https://clarasguide.valeena.workers.dev/Guides/sandboxie-guide/) / [GitHub](https://github.com/sandboxie-plus/Sandboxie)
-* [Windows Sandbox](https://learn.microsoft.com/en-us/windows/security/application-security/application-isolation/windows-sandbox/windows-sandbox-overview) - Full Virtual Machine Sandbox Environment
-* [Dangerzone](https://dangerzone.rocks/) - Convert Malicious PDFs to Safe Files / [GitHub](https://github.com/freedomofpress/dangerzone)
-* [⁠Ransomware.live](https://www.ransomware.live/) - Live Ransomware Monitor
-* [No More Ransom](https://www.nomoreransom.org/en/decryption-tools.html) - Ransomware Decryption Tools
-* [ID Ransomware](https://id-ransomware.malwarehunterteam.com/) - Ransomware Identification Tool
-* [ConfigureDefender](https://github.com/AndyFul/ConfigureDefender) - Configure Windows Defender Settings
-
-***
-
-## ▷ File Scanners
-
-* 🌐 **[The Second Opinion](https://jijirae.github.io/thesecondopinion/index.html)** - Portable Malware Scanners / Removal Tools / [GitHub](https://github.com/jijirae/thesecondopinion/)
-* ⭐ **[VirusTotal](https://www.virustotal.com/)** / [Scan Results Guide](https://clarasguide.valeena.workers.dev/Guides/vtguide/) or **[Hybrid Analysis](https://hybrid-analysis.com/)** - Online File Scanner
-* ⭐ **VirusTotal Tools** - [CLI](https://github.com/VirusTotal/vt-cli) / [Uploader](https://github.com/SamuelTulach/VirusTotalUploader) / [Lite Version](https://www.virustotal.com/old-browsers/)
-* [⁠Threat Insights Portal](https://www.threat.rip/) - Online File Scanner / Sign-Up Required / [Discord](https://discord.com/invite/p2YbdzJ6f2)
-* [Jotti](https://virusscan.jotti.org/en) - Online File Scanner
-* [Filescan.io](https://www.filescan.io/) or [⁠MetaDefender Cloud](https://metadefender.com/) - Online File Scanner / [X](https://x.com/filescan_itsec) / [GitHub](https://github.com/filescanio)
-* [Farbar](https://www.bleepingcomputer.com/download/farbar-recovery-scan-tool/) - Local File Scanner / [Guide](https://www.bleepingcomputer.com/forums/t/781976/)
-* [Microsoft Safety Scanner](https://learn.microsoft.com/en-us/defender-endpoint/safety-scanner-download) - On-demand AV Scanner
-* [Manalyzer](https://manalyzer.org/) - PE File Scanner / [GitHub](https://github.com/JusticeRage/Manalyze)
-* [YARA](https://virustotal.github.io/yara/) - Malware Identification Tool / [GitHub](https://github.com/virustotal/yara)
-* [Winitor](https://www.winitor.com/) - EXE Malware Assessment
-* [pyWhat](https://github.com/bee-san/pyWhat) - Identify Anything / [Discord](https://discord.com/invite/zYTM3rZM4T)
-* [Grype](https://github.com/anchore/grype) - Container Images Vulnerability Scanner
+* ↪️ **[虚拟机](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/system-tools#wiki_.25B7_virtual_machines)**
+* ⭐ **[Malwarebytes](https://www.malwarebytes.com/)** / [X](https://x.com/malwarebytes) 或 [ESET](https://rentry.co/FMHYB64#eset) - 杀毒软件
+* ⭐ **[AdwCleaner](https://www.malwarebytes.com/adwcleaner/)** - 反广告软件 / [X](https://x.com/malwarebytes)
+* ⭐ **[Triage](https://tria.ge/)**、[ANY.RUN](https://any.run/) / [Discord](https://discord.gg/anyrun) / [备注](https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/anyrun-note.md) 或 [Cuckoo](https://cuckoo.cert.ee/) / [2](https://sandbox.pikker.ee/) - 在线沙箱
+* ⭐ **[安全 / 杀毒多版块 Reddit](https://www.reddit.com/user/goretsky/m/security/)** - Reddit 社区
+* ⭐ **[FMHY SafeGuard](https://fmhy.github.io/FMHY-SafeGuard/)** - 检测当前网站是否可信 / 不可信 / [GitHub](https://github.com/fmhy/FMHY-SafeGuard)
+* [BleepingComputer](https://www.bleepingcomputer.com/forums/f/22/virus-trojan-spyware-and-malware-removal-help/)、[Malwarebytes 论坛](https://forums.malwarebytes.com/forum/7-windows-malware-removal-help-support/) 或 [Sysnative](https://www.sysnative.com/forums/forums/security-arena.66/) - 恶意软件清除论坛 / [备注](https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/malware-removal-forums.md)
+* [⁠rifteyy](https://rifteyy.org/) - 恶意软件清除指南 / 博客
+* [Sandboxie Plus](https://sandboxie-plus.com/) - 沙箱环境 / [指南](https://clarasguide.valeena.workers.dev/Guides/sandboxie-guide/) / [GitHub](https://github.com/sandboxie-plus/Sandboxie)
+* [Windows Sandbox](https://learn.microsoft.com/en-us/windows/security/application-security/application-isolation/windows-sandbox/windows-sandbox-overview) - 完整虚拟机沙箱环境
+* [Dangerzone](https://dangerzone.rocks/) - 将恶意 PDF 转换为安全文件 / [GitHub](https://github.com/freedomofpress/dangerzone)
+* [⁠Ransomware.live](https://www.ransomware.live/) - 实时勒索软件监控
+* [No More Ransom](https://www.nomoreransom.org/en/decryption-tools.html) - 勒索软件解密工具
+* [ID Ransomware](https://id-ransomware.malwarehunterteam.com/) - 勒索软件识别工具
+* [ConfigureDefender](https://github.com/AndyFul/ConfigureDefender) - 配置 Windows Defender 设置
 
 ***
 
-## ▷ Site Legitimacy Check
+## ▷ 文件扫描器
 
-* ⭐ **[URL Void](https://www.urlvoid.com/)** - 35 Blocklist Engines Scan
-* ⭐ **[URLScan](https://urlscan.io/)** - Detailed Report / API
-* ⭐ **[Trend Micro](https://global.sitesafety.trendmicro.com/)** - Basic Safety Rating / Content Tags
-* [ScamAdviser](https://www.scamadviser.com/) - Trust Score
-* [IsLegitSite](https://www.islegitsite.com/) - 9 Blocklist Engines Scan
+* 🌐 **[The Second Opinion](https://jijirae.github.io/thesecondopinion/index.html)** - 便携式恶意软件扫描器 / 清除工具 / [GitHub](https://github.com/jijirae/thesecondopinion/)
+* ⭐ **[VirusTotal](https://www.virustotal.com/)** / [扫描结果指南](https://clarasguide.valeena.workers.dev/Guides/vtguide/) 或 **[Hybrid Analysis](https://hybrid-analysis.com/)** - 在线文件扫描器
+* ⭐ **VirusTotal 工具** - [CLI](https://github.com/VirusTotal/vt-cli) / [上传器](https://github.com/SamuelTulach/VirusTotalUploader) / [精简版](https://www.virustotal.com/old-browsers/)
+* [⁠Threat Insights Portal](https://www.threat.rip/) - 在线文件扫描器 / 需要注册 / [Discord](https://discord.com/invite/p2YbdzJ6f2)
+* [Jotti](https://virusscan.jotti.org/en) - 在线文件扫描器
+* [Filescan.io](https://www.filescan.io/) 或 [⁠MetaDefender Cloud](https://metadefender.com/) - 在线文件扫描器 / [X](https://x.com/filescan_itsec) / [GitHub](https://github.com/filescanio)
+* [Farbar](https://www.bleepingcomputer.com/download/farbar-recovery-scan-tool/) - 本地文件扫描器 / [指南](https://www.bleepingcomputer.com/forums/t/781976/)
+* [Microsoft Safety Scanner](https://learn.microsoft.com/en-us/defender-endpoint/safety-scanner-download) - 按需杀毒扫描器
+* [Manalyzer](https://manalyzer.org/) - PE 文件扫描器 / [GitHub](https://github.com/JusticeRage/Manalyze)
+* [YARA](https://virustotal.github.io/yara/) - 恶意软件识别工具 / [GitHub](https://github.com/virustotal/yara)
+* [Winitor](https://www.winitor.com/) - EXE 恶意软件评估
+* [pyWhat](https://github.com/bee-san/pyWhat) - 识别任何东西 / [Discord](https://discord.com/invite/zYTM3rZM4T)
+* [Grype](https://github.com/anchore/grype) - 容器镜像漏洞扫描器
+
+***
+
+## ▷ 网站合法性检查
+
+* ⭐ **[URL Void](https://www.urlvoid.com/)** - 35 个屏蔽列表引擎扫描
+* ⭐ **[URLScan](https://urlscan.io/)** - 详细报告 / API
+* ⭐ **[Trend Micro](https://global.sitesafety.trendmicro.com/)** - 基本安全评级 / 内容标签
+* [ScamAdviser](https://www.scamadviser.com/) - 信任评分
+* [IsLegitSite](https://www.islegitsite.com/) - 9 个屏蔽列表引擎扫描
 * [ZScaler](https://zulu.zscaler.com/)
-* [Talos](https://talosintelligence.com/) - Reputation Rating / Content Tags / Blocklist Flag
+* [Talos](https://talosintelligence.com/) - 信誉评级 / 内容标签 / 屏蔽列表标记
 
 ***
 
-# ► Privacy / Security
+# ► 隐私保护 / 安全
 
-* ↪️ **[SMS Verification Sites](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/storage#wiki_sms_verification_sites)**
-* ↪️ **[File Encryption](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/file-tools#wiki_.25B7_file_encryption)**
-* ↪️ **[Drive Formatting / File Deletion](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/file-tools#wiki_.25B7_formatting_.2F_deletion)**
-* ↪️ **[Photo Forensics / Metadata](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/image-tools#wiki_.25B7_photo_forensics_.2F_metadata)**
-* ↪️ **[Privacy-Focused Android Operating Systems](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android#wiki_.25B7_operating_systems)**
-* ⭐ **[Whonix](https://www.whonix.org/)** / [Subreddit](https://www.reddit.com/r/Whonix) / [X](https://twitter.com/Whonix) / [Telegram](https://t.me/s/Whonix) / [GitHub](https://github.com/Whonix), **[Qubes](https://www.qubes-os.org/)** / [Subreddit](https://www.reddit.com/r/Qubes) / [X](https://twitter.com/QubesOS) / [GitHub](https://github.com/QubesOS) or **[Tails](https://tails.net/)** / [X](https://twitter.com/Tails_live) / [Telegram](https://t.me/torproject) / [GitHub](https://github.com/torproject) - Privacy-Focused Operating Systems
-* [W10Privacy](https://www.w10privacy.de/english-home/) - Privacy and Data Protection Tools
-* [Telemetry.md](https://gist.github.com/ave9858/a2153957afb053f7d0e7ffdd6c3dcb89) - Disable Windows 10/11 Telemetry
-* [Agent DVR](https://www.ispyconnect.com/) / [Subreddit](https://www.reddit.com/r/ispyconnect/), [Frigate](https://frigate.video/) / [GitHub](https://github.com/blakeblackshear/frigate), [Smart Sec Cam](https://github.com/scottbarnesg/smart-sec-cam) or [ZoneMinder](https://zoneminder.com/) / [Discord](https://discord.gg/tHYyP9k66q) / [GitHub](https://github.com/ZoneMinder/ZoneMinder/) - Security Camera Systems
-* [⁠go2rtc](https://github.com/AlexxIT/go2rtc) - Security Camera Bridge + Stream Manager 
-* [Team Elite](https://www.te-home.net/) - Security Software
-* [YourDigitalRights](https://yourdigitalrights.org/) - Get Organizations to Delete Your Personal Data
-* [Big Ass Data Broker Opt-Out List](https://github.com/yaelwrites/Big-Ass-Data-Broker-Opt-Out-List) or [⁠Data Broker Watch](https://databrokerswatch.org/) - Data Broker Removal & Opt-Out Methods
-* [⁠DataRequests](https://www.datarequests.org/) - GDPR Request Generator / Tools / [GitHub](https://github.com/datenanfragen)
-* [Surfer Protocol](https://github.com/Surfer-Org/Protocol) - Multi-Platform User Data Exporter / [Discord](https://discord.gg/5KQkWApkYC)
-* [GnuPG](https://gnupg.org/) - Data / Communication Encryption Tool / [Installer](https://www.gpg4win.org/) / [Key Manager](https://github.com/orhun/gpg-tui)
-* [PrivNote](https://privnote.com/), [PrivateBin](https://privatebin.net/), [SafeNote](https://safenote.co/) / [GitHub](https://github.com/devrolabs), [Burn.Link](https://burn.link/), [ThisLinkWillSelfDestruct](https://thislinkwillselfdestruct.com/), [s.cr](https://s.cr/), [Yopass](https://yopass.se/) / [GitHub](https://github.com/jhaals/yopass), [Hemmelig](https://hemmelig.app/) / [GitHub](https://github.com/HemmeligOrg/Hemmelig.app), [Burn My Note](https://www.burnmynote.link/) or [OneTimeSecret](https://onetimesecret.com/) / [GitHub](https://github.com/onetimesecret/onetimesecret) - Self-Destructing Messages / Private Notes
-* [⁠Portable Secret](https://alcazarsec.github.io/portable-secret/) - Self-Contained HTML Files that Decrypt Locally in Browser / [GitHub](https://github.com/alcazarsec/portable-secret)
-* [Forensic Focus](https://www.forensicfocus.com/forums/) - Digital Forensics Discussion Forums / [Discord](https://discord.gg/97zKvTXHeS)
-* [SurveillanceWatch](https://www.surveillancewatch.io/) - Surveillance Company Connections
-* [ALPR Watch](https://alprwatch.org/), [⁠FlockHopper](https://dontgetflocked.com/) or [DeFlock](https://deflock.org/) / [Discord](https://discord.gg/aV7v4R3sKT) / [GitHub](https://github.com/FoggedLens/deflock) - AI Automated License Plate Reader Cameras / ALPR Maps
-* [EyesOnFlock](https://eyesonflock.com/) - AI Flock Surveillance Database / Tracking
-* [Have I Been Flocked?](https://haveibeenflocked.com/) - Check to See if Your Plate Has Been Tagged by Flock Surveillance 
-* [ALPR Watch](https://alpr.watch/) - Track Local Government Surveillance Tech Meetings
-* [People Over Papers](https://iceout.org/en/) or [ICE Map](https://www.icemap.dev/) - ICE Activity Information / Maps
-* [If An Agent Knocks](https://docs.google.com/document/d/176Yds1p63Q3iaKilw0luChMzlJhODdiPvF2I4g9eIXo/) - Best Practices if Contacted by Agents
-
-***
-
-## ▷ Privacy Indexes
-
-* ⭐ **[The Hitchhiker’s Guide](https://anonymousplanet.net/)** - Online Anonymity Guide / [GitHub](https://github.com/Anon-Planet/thgtoa) 
-* ⭐ **[The OPSEC Bible](http://opbible7nans45sg33cbyeiwqmlp5fu7lklu6jd6f3mivrjeqadco5yd.onion/)** (.onion), [2](https://bible.beginnerprivacy.com/opsec/) - Online Anonymity Guide / [SimpleX Chat](http://nowherejezfoltodf4jiyl6r56jnzintap5vyjlia7fkirfsnfizflqd.onion/simplex.html)
-* ⭐ **[Surveillance Self-Defense](https://ssd.eff.org/)** - Educational Guide
-* ⭐ **[The New Oil](https://thenewoil.org/)** - Educational Guide / [GitHub](https://github.com/tnonate/thenewoil)
-* ⭐ **[No Trace](https://www.notrace.how/)** - Educational Guide / [.onion](http://i4pd4zpyhrojnyx5l3d2siauy4almteocqow4bp2lqxyocrfy6prycad.onion/)
-* ⭐ **[Awesome Privacy](https://awesome-privacy.xyz/)** / [GitHub](https://github.com/lissy93/awesome-privacy), [Awesome Security Hardening](https://github.com/decalage2/awesome-security-hardening) or [pluja's Awesome Privacy](https://pluja.github.io/awesome-privacy/) / [GitHub](https://github.com/pluja/awesome-privacy) - Privacy Apps / Services
-* ⭐ **[Privacy Guides](https://www.privacyguides.org/)**, [2](https://privacyguides.github.io/privacyguides.org/), [3](https://privacyguides-org-production.b-cdn.net/en/) - Educational Guide / [Discuss](https://discuss.privacyguides.net/) / [.onion](http://www.xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion/) / [Matrix](https://matrix.to/#/#privacyguides:matrix.org) / [GitHub](https://github.com/privacyguides/privacyguides.org)
-* ⭐ **[Consumer Rights Wiki](https://consumerrights.wiki/)** - Documents Practices That Impact Consumer Rights / [Extension](https://github.com/FULU-Foundation/CRW-Extension) / [Discord](https://discord.gg/8w5rSNAXRf)
-* [Digital Defense](https://digital-defense.io/) - Personal Checklist for Privacy & Security / [GitHub](https://github.com/lissy93/personal-security-checklist)
-* [Defensive Computing Checklist](https://defensivecomputingchecklist.com/) - Educational Guide
-* [⁠Whonix Wiki](https://www.whonix.org/wiki) - Educational Guide / [Forum](https://forums.whonix.org/)
-* [⁠Kicksecure Wiki](https://www.kicksecure.com/wiki) - Educational Guide / [Forum](https://forums.kicksecure.com/)
-* [OPSEC guide](https://whos-zycher.github.io/opsec-guide/) - Educational Guide
-* [PrivSec](https://privsec.dev/) - Educational Guide / [GitHub](https://github.com/PrivSec-dev)
-* [Beginner Privacy](https://beginnerprivacy.com/) - Beginners Privacy Guide / Checklist / [Mastodon](https://mastodon.social/@BeginnerPrivacy) / [Source Code](https://codeberg.org/BeginnerPrivacy) / [GitHub](https://github.com/beginnerprivacy/beginnerprivacy.com)
-* [Hostux](https://hostux.network/) - Privacy Tools / [Source Code](https://git.hostux.net/valere/hostux.network)
-* [Privacy Settings](https://github.com/StellarSand/privacy-settings) - Privacy Setting Guides
-* [Privacy Not Included](https://www.mozillafoundation.org/en/privacynotincluded/) - Product Privacy Ratings
-* [EncryptedList](https://encryptedlist.xyz/) - List of Encrypted Services/Apps
-* [Awesome Vehicle Security](https://github.com/jaredthecoder/awesome-vehicle-security) - Vehicle Security Resources
+* ↪️ **[短信验证网站](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/storage#wiki_sms_verification_sites)**
+* ↪️ **[文件加密](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/file-tools#wiki_.25B7_file_encryption)**
+* ↪️ **[驱动器格式化 / 文件删除](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/file-tools#wiki_.25B7_formatting_.2F_deletion)**
+* ↪️ **[照片取证 / 元数据](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/image-tools#wiki_.25B7_photo_forensics_.2F_metadata)**
+* ↪️ **[注重隐私的 Android 操作系统](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android#wiki_.25B7_operating_systems)**
+* ⭐ **[Whonix](https://www.whonix.org/)** / [Subreddit](https://www.reddit.com/r/Whonix) / [X](https://twitter.com/Whonix) / [Telegram](https://t.me/s/Whonix) / [GitHub](https://github.com/Whonix)、**[Qubes](https://www.qubes-os.org/)** / [Subreddit](https://www.reddit.com/r/Qubes) / [X](https://twitter.com/QubesOS) / [GitHub](https://github.com/QubesOS) 或 **[Tails](https://tails.net/)** / [X](https://twitter.com/Tails_live) / [Telegram](https://t.me/torproject) / [GitHub](https://github.com/torproject) - 注重隐私的操作系统
+* [W10Privacy](https://www.w10privacy.de/english-home/) - 隐私和数据保护工具
+* [Telemetry.md](https://gist.github.com/ave9858/a2153957afb053f7d0e7ffdd6c3dcb89) - 禁用 Windows 10/11 遥测
+* [Agent DVR](https://www.ispyconnect.com/) / [Subreddit](https://www.reddit.com/r/ispyconnect/)、[Frigate](https://frigate.video/) / [GitHub](https://github.com/blakeblackshear/frigate)、[Smart Sec Cam](https://github.com/scottbarnesg/smart-sec-cam) 或 [ZoneMinder](https://zoneminder.com/) / [Discord](https://discord.gg/tHYyP9k66q) / [GitHub](https://github.com/ZoneMinder/ZoneMinder/) - 安防摄像头系统
+* [⁠go2rtc](https://github.com/AlexxIT/go2rtc) - 安防摄像头桥接 + 流管理器
+* [Team Elite](https://www.te-home.net/) - 安全软件
+* [YourDigitalRights](https://yourdigitalrights.org/) - 让组织删除你的个人数据
+* [Big Ass Data Broker Opt-Out List](https://github.com/yaelwrites/Big-Ass-Data-Broker-Opt-Out-List) 或 [⁠Data Broker Watch](https://databrokerswatch.org/) - 数据经纪人移除和退出方法
+* [⁠DataRequests](https://www.datarequests.org/) - GDPR 请求生成器 / 工具 / [GitHub](https://github.com/datenanfragen)
+* [Surfer Protocol](https://github.com/Surfer-Org/Protocol) - 多平台用户数据导出器 / [Discord](https://discord.gg/5KQkWApkYC)
+* [GnuPG](https://gnupg.org/) - 数据 / 通信加密工具 / [安装器](https://www.gpg4win.org/) / [密钥管理器](https://github.com/orhun/gpg-tui)
+* [PrivNote](https://privnote.com/)、[PrivateBin](https://privatebin.net/)、[SafeNote](https://safenote.co/) / [GitHub](https://github.com/devrolabs)、[Burn.Link](https://burn.link/)、[ThisLinkWillSelfDestruct](https://thislinkwillselfdestruct.com/)、[s.cr](https://s.cr/)、[Yopass](https://yopass.se/) / [GitHub](https://github.com/jhaals/yopass)、[Hemmelig](https://hemmelig.app/) / [GitHub](https://github.com/HemmeligOrg/Hemmelig.app)、[Burn My Note](https://www.burnmynote.link/) 或 [OneTimeSecret](https://onetimesecret.com/) / [GitHub](https://github.com/onetimesecret/onetimesecret) - 自毁消息 / 私密便签
+* [⁠Portable Secret](https://alcazarsec.github.io/portable-secret/) - 在浏览器本地解密的独立 HTML 文件 / [GitHub](https://github.com/alcazarsec/portable-secret)
+* [Forensic Focus](https://www.forensicfocus.com/forums/) - 数字取证讨论论坛 / [Discord](https://discord.gg/97zKvTXHeS)
+* [SurveillanceWatch](https://www.surveillancewatch.io/) - 监控公司关联关系
+* [ALPR Watch](https://alprwatch.org/)、[⁠FlockHopper](https://dontgetflocked.com/) 或 [DeFlock](https://deflock.org/) / [Discord](https://discord.gg/aV7v4R3sKT) / [GitHub](https://github.com/FoggedLens/deflock) - AI 自动车牌识别摄像头 / ALPR 地图
+* [EyesOnFlock](https://eyesonflock.com/) - AI Flock 监控数据库 / 追踪
+* [Have I Been Flocked?](https://haveibeenflocked.com/) - 检查你的车牌是否被 Flock 监控标记
+* [ALPR Watch](https://alpr.watch/) - 追踪地方政府监控技术会议
+* [People Over Papers](https://iceout.org/en/) 或 [ICE Map](https://www.icemap.dev/) - ICE 活动信息 / 地图
+* [If An Agent Knocks](https://docs.google.com/document/d/176Yds1p63Q3iaKilw0luChMzlJhODdiPvF2I4g9eIXo/) - 被执法人员联系时的最佳做法
 
 ***
 
-## ▷ Network Security
-
-* ⭐ **[Safing Portmaster](https://safing.io/)** - Network Monitor / DNS Resolver / Firewall / [X](https://twitter.com/SafingIO) / [Discord](https://discord.com/invite/9ScnccuXaZ) / [GitHub](https://github.com/safing)
-* [I2P](https://geti2p.net/en/) - Encrypted Private Network Layer / [Client](https://i2pd.website/) / [Subreddit](https://www.reddit.com/r/i2p/) / [GitLab](https://i2pgit.org/)
-* [Freenet](https://freenet.org/) - Decentralized P2P Web / [GitHub](https://github.com/freenet/web)
-* [Hyphanet](https://www.hyphanet.org/) - Decentralized P2P Web / [GitHub](https://github.com/hyphanet)
-* [⁠RustNet](https://github.com/domcyrus/rustnet) - Network Monitor TUI 
-* [Simplewall](https://github.com/henrypp/simplewall) - Firewall
-* [Fort](https://github.com/tnodir/fort) - Firewall
-* [WFC](https://www.binisoft.org/wfc.php) - Firewall
-
-***
-
-## ▷ [Linux Privacy](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/linux#wiki_.25B7_adblock_.2F_privacy)
-
-***
-
-## ▷ [Mac Privacy](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/linux#wiki_.25BA_mac_adblock_.2F_privacy)
-
-***
-
-## ▷ [Android Privacy](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android#wiki_.25B7_android_privacy)
-
-***
-
-## ▷ [iOS Privacy](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android#wiki_.25B7_ios_privacy)
-
-***
-
-# ► Web Privacy
-
-* 🌐 **[Google Alt List](https://www.techspot.com/article/2752-all-google-alternatives/)**, [r/degoogle](https://www.reddit.com/r/degoogle) or [No More Google](https://nomoregoogle.com/) - Google App Alternatives
-* ↪️ **[Encode / Decode URLs](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/text-tools#wiki_.25B7_encode_.2F_decode)**
-* ⭐ **[PrivacySpy](https://privacyspy.org/)** / [GitHub](https://github.com/politiwatch/privacyspy) or [ToS;DR](https://tosdr.org/) / [Discord](https://discord.gg/tosdr) / [GitHub](https://github.com/tosdr) - Sites Privacy Policies
-* ⭐ **[JustDeleteMe](https://justdeleteme.xyz/)** - Find / Terminate Old Accounts / [GitHub](https://github.com/jdm-contrib/jdm)
-* [Phish Report](https://phish.report/), [OpenPhish](https://openphish.com/), [Netcraft Report](https://report.netcraft.com/report), [isitPhishing](https://isitphishing.org/), [PhishStats](https://phishstats.info/) / [Telegram](https://t.me/joinchat/AAAAAElZRwd0aBrYTaHHcQ) / [GitHub](https://github.com/eschultze/phishstats-api-network) or [PhishTank](https://phishtank.org/) - Report Phishing Sites
-* [DNS Jumper](https://www.sordum.org/7952/dns-jumper-v2-3/) - DNS Switcher
-* [⁠OnionHop](https://www.onionhop.de/) - Tor Network Client / Onion Routing / [GitHub](https://github.com/center2055/OnionHop)
-* [tweetXer](https://github.com/lucahammer/tweetXer) - Delete X.com Posts
-* [delete-likes-from-x-com.md](https://gist.github.com/aymericbeaumet/d1d6799a1b765c3c8bc0b675b1a1547d) - Delete X.com Likes / Favorites
-* [Power Delete Suite](https://github.com/j0be/PowerDeleteSuite) - Reddit Auto Post Delete
-
-***
-
-## ▷ Browser Privacy
-
-* 🌐 **[Browser Privacy Guides](https://www.privacyguides.org/en/desktop-browsers)** - Browser Privacy / Setup Guides
-* ↪️ **[Browser Comparisons](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/internet-tools#wiki_.25BA_browser_tools)**
-* ↪️ **[Android Privacy Browsers](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android#wiki_.25B7_android_browsers)**
-* ⭐ **[Tor Browser](https://www.torproject.org/)**, [2](https://tor.eff.org/) - Onion-Routed Browser / [TG Downloads / Bridges](https://t.me/torproject) / [.onion](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion/) / [GitLab](https://gitlab.torproject.org/tpo/applications/tor-browser)
-* ⭐ **[Mullvad Browser](https://mullvad.net/en/browser)** - Tor Browser Fork (without Tor network) / [GitHub](https://github.com/mullvad)
-* ⭐ **[arkenfox](https://github.com/arkenfox/user.js)** - Firefox Privacy Tweak / [Video](https://youtu.be/F7-bW2y6lcI) / [GUI](https://arkenfox.github.io/gui/) / [Warning](https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/general-tweak-warning.md)
-* ⭐ **[LibreWolf](https://librewolf.net/)** - Custom Privacy-Focused Firefox / [Auto-Updater](https://github.com/ltguillaume/librewolf-winupdater), [2](https://codeberg.org/ltguillaume/librewolf-winupdater) / [Subreddit](https://www.reddit.com/r/LibreWolf) / [Source Code](https://codeberg.org/librewolf)
-* [⁠Phoenix](https://codeberg.org/celenity/Phoenix) - Firefox Privacy Tweak / [GitHub](https://github.com/celenityy/Phoenix) / [Warning](https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/general-tweak-warning.md)
-* [Brave Browser](https://brave.com/) - Privacy Chromium Browser / [Debloat / Hardening](https://github.com/ChaoticSi1ence/SlimBrave-Neo) / [Subreddit](https://www.reddit.com/r/brave_browser/) / [GitHub](https://github.com/brave/brave-browser)
-* [Encrypted SNI](https://www.cloudflare.com/ssl/encrypted-sni/) - Cloudflare Browser Check
-* [⁠Disable JavaScript](https://disable-javascript.org/) - JavaScript Disabling Guide / Can Break Sites / Whitelisting Required
-
-***
-
-## ▷ Password Privacy / 2FA
-
-* 🌐 **[2FA Directory](https://2fa.directory/)** - List of Sites with 2FA Support / [GitHub](https://github.com/2factorauth/twofactorauth)
-* ↪️ **[Password Managers](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/internet-tools/#wiki_.25B7_password_managers)**
-* ⭐ **[Ente Auth](https://ente.com/auth/)** - 2FA / All Platforms / [X](https://x.com/enteio) / [Subreddit](https://reddit.com/r/enteio) / [Discord](https://discord.gg/z2YVKkycX3) / [GitHub](https://github.com/ente-io/ente)
-* ⭐ **[Aegis](https://getaegis.app/)** - 2FA / Android / [GitHub](https://github.com/beemdevelopment/Aegis)
-* ⭐ **[Stratum](https://stratumauth.com)** - 2FA / Android / [GitHub](https://github.com/stratumauth/app)
-* ⭐ **[Password Strength Chart](https://i.ibb.co/B2Vz3hSj/89x5g3t4xrxe1.png)**
-* [2FAS](https://2fas.com/) - 2FA / Android, iOS / [X](https://x.com/2FAS_com) / [Subreddit](https://www.reddit.com/r/2fas_com/) / [Discord](https://discord.gg/q4cP6qh2g5) / [GitHub](https://github.com/twofas)
-* [⁠Proton Authenticator](https://proton.me/authenticator) - 2FA / All Platforms / [Discord](https://discord.com/invite/proton) / [GitHub](https://github.com/orgs/protonpass/repositories)
-* [Mauth](https://github.com/X1nto/Mauth) - 2FA / Android
-* [FreeOTPPlus](https://github.com/helloworld1/FreeOTPPlus) - 2FA / Android
-* [KeePassXC](https://keepassxc.org/) - 2FA / Local / Windows, Mac, Linux / [Resources](https://github.com/lgg/awesome-keepass) / [Guide](https://keepassxc.org/docs/KeePassXC_GettingStarted) / [Video](https://youtu.be/ckWPHaQwft8) / [GitHub](https://github.com/keepassxreboot/keepassxc)
-* [AuthMe](https://authme.levminer.com/) - 2FA / Windows, Mac, Linux / [GitHub](https://github.com/Levminer/authme)
-* [Yubioath](https://developers.yubico.com/yubioath-flutter/) - 2FA / YubiKey Support / Windows, Android / [X](https://x.com/yubico) / [GitHub](https://github.com/Yubico/yubioath-flutter)
-* [OTPClient](https://github.com/paolostivanin/OTPClient) - 2FA / Linux
-* [Sentinel](https://getsentinel.io/) - 2FA / Mac, Android, iOS
-* [OTP Auth](https://apps.apple.com/app/otp-auth/id659877384) - 2FA / iOS
-* [Tofu](https://www.tofuauth.com/) - 2FA / iOS / [GitHub](https://github.com/iKenndac/Tofu)
-* [Authenticator](https://authenticator.cc/) - 2FA Browser Extension / [GitHub](https://github.com/Authenticator-Extension/Authenticator)
-* [2FAuth](https://docs.2fauth.app/) - Self-Hosted / Web / [GitHub](https://github.com/Bubka/2FAuth)
-* [VaultWarden](https://github.com/dani-garcia/vaultwarden) - Unofficial Bitwarden Server Backend / Self-Hosted
-* [OTP Helper](https://github.com/jd1378/otphelper) - Extract OTP Tokens
-* [steamguard-cli](https://github.com/dyc3/steamguard-cli) - Generate Steam 2FA Codes
-
-***
-
-## ▷ Encrypted Messengers
-
-* **Note** - Keep in mind that even with E2EE enabled metadata may still be visible to your homeserver and homeservers of those you're chatting with.
-
-***
-
-* 🌐 **[Eylenburg Comparisons](https://eylenburg.github.io/im_comparison.htm)**, [SecuChart](https://bkil.gitlab.io/secuchart/), [Messenger-Matrix](https://www.messenger-matrix.de/messenger-matrix-en.html) or [Secure Messaging Apps](https://www.securemessagingapps.com/) - Chat App Indexes / Comparisons
-* 🌐 **[Matrix Clients](https://matrix.org/ecosystem/clients/)** / [Mod Bot](https://github.com/matrix-org/mjolnir) / [Resources](https://matrix.org/ecosystem/) / [Servers](https://tatsumoto-ren.github.io/blog/list-of-matrix-servers.html), [2](https://tatsumoto.neocities.org/blog/list-of-matrix-servers.html), [3](https://gitlab.com/famedly/conduit), [4](https://joinmatrix.org/servers/), [5](https://archive.md/4xZE4), [6](https://wiki.asra.gr/en:public_servers)
-* ⭐ **[SimpleX](https://simplex.chat/)** - All Platforms / [GitHub](https://github.com/simplex-chat)
-* ⭐ **[Signal](https://signal.org/)** - All Platforms / Requires Phone / [GitHub](https://github.com/signalapp) or **[Molly](https://github.com/mollyim/mollyim-android)** / Some NSFW / [Stickers](https://signalstickers.org/)
-* ⭐ **[Briar](https://briarproject.org/)** / [Desktop](https://briarproject.org/download-briar-desktop/) / [GitLab](https://code.briarproject.org/briar/briar)
-* [Wire](https://wire.com/en/download/) - All Platforms / Requires Phone / [GitHub](https://github.com/wireapp)
-* [Session](https://getsession.org/) - All Platforms / [GitHub](https://github.com/session-foundation)
-* [Keybase](https://keybase.io/) - All Platforms / [GitHub](https://github.com/keybase/client)
-* [Jami](https://jami.net/) - All Platforms / [GitLab](https://git.jami.net/savoirfairelinux/jami-project)
-* [Tox](https://tox.chat/) / [GitHub](https://github.com/TokTok/c-toxcore) or [qTox](https://qtox.github.io/) / [GitHub](https://github.com/TokTok/qTox) - All Platforms
-* [Cabal](https://cabal.chat/) - P2P / Serverless All Platforms / [GitHub](https://github.com/cabal-club)
-* [Linphone](https://www.linphone.org/) - All Platforms / [GitLab](https://gitlab.linphone.org/explore/projects)
-* [Berty](https://berty.tech/) / Android, iOS / [GitHub](https://github.com/berty/berty)
-* [Ricochet Refresh](https://www.ricochetrefresh.net/) / Windows, Mac, Linux / [GitHub](https://github.com/blueprint-freespeech/ricochet-refresh)
-* [Cwtch](https://docs.cwtch.im) / Windows, Mac, Linux, Android / [GitLab](https://git.openprivacy.ca/cwtch.im/cwtch)
-* [Delta Chat](https://delta.chat/) - Decentralized Email-Based Messenger / Windows, Mac, Linux, Android
-* [Status](https://status.app/) / Android, iOS / [GitHub](https://github.com/status-im)
-* [Damus](https://damus.io/) or [MySudo](https://anonyome.com/individuals/mysudo/) / Android, iOS
-* [Databag](https://github.com/balzack/databag) - Self-Hosted / Android, iOS, Web / [GitHub](https://github.com/balzack/databag)
-* [ssh-chat](https://github.com/shazow/ssh-chat) or [Devzat](https://github.com/quackduck/devzat) - SSH Chat
-
-***
-
-## ▷ Email Privacy
-
-* 🌐 **[⁠OpenPGP Email Encryption](https://www.openpgp.org/software/)** - Encrypted (OpenPGP) Email Client Index
-* ↪️ **[Temp Mail Sites](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/internet-tools#wiki_.25B7_temp_mail)** - Create Temporary / Throwaway Emails
-* ↪️ **[Email Aliasing](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/internet-tools#wiki_.25B7_email_aliasing)** - Create Permanent Anonymous Emails
-* ⭐ **[Proton Mail](https://proton.me/mail)** - 1GB Free / Encrypted Email / Deleted After 1 Year Inactive / [.onion](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion/) / [Subreddit](https://www.reddit.com/r/ProtonMail/) / [More Storage](https://proton.me/support/more-free-storage-existing-users) / [Discord](https://discord.com/invite/proton) / [GitHub](https://github.com/ProtonMail)
-* ⭐ **[Tuta](https://tuta.com/)** - 1GB Free / Encrypted Email / Deleted After 6 Months Inactive / [Subreddit](https://www.reddit.com/r/tutanota/) / [GitHub](https://github.com/tutao/tutanota)
-* [Disroot](https://disroot.org/en/services/email) - 1GB Free / Encrypted Email
-* [DNMX](https://dnmx.cc/) - Onion-Based Email
-* [Mailvelope](https://mailvelope.com/) - Give Emails PGP Encryption / [GitHub](https://github.com/mailvelope/mailvelope)
-* [Email Privacy Tester](https://www.emailprivacytester.com/) - Email Privacy Test / [GitLab](https://gitlab.com/mikecardwell/ept3)
-* [SecLists](https://seclists.org/) - Security Mailing List Archive
-
-***
-
-## ▷ Data Breach Monitoring
-
-* ⭐ **[Have I Been Pwned?](https://haveibeenpwned.com/)** / [GitHub](https://github.com/HaveIBeenPwned) or [F-Secure](https://www.f-secure.com/en/identity-theft-checker) / [X](https://x.com/FSecure) - Monitor Email Breaches
-* ⭐ **[Have I Been Pwned Passwords](https://haveibeenpwned.com/Passwords)** - Password Breach Check
-* [Mozilla Monitor](https://monitor.mozilla.org/) - Data Breach Check / Requires Sign-Up / [GitHub](https://github.com/mozilla/blurts-server)
-* [BreachDirectory](https://breachdirectory.org), [Leak Lookup](https://leak-lookup.com/), [Trufflehog](https://trufflesecurity.com/) / [Discord](https://discord.gg/8Hzbrnkr7E) / [GitHub](https://github.com/trufflesecurity/trufflehog) or [LeakPeek](https://leakpeek.com/) / [Discord](https://discord.com/invite/mNxhSRWKwq) - Data Breach Search Engines
-* [Intelligence X](https://intelx.io/) - Password Breach Check / [GitHub](https://github.com/IntelligenceX)
-* [ScatteredSecrets](https://scatteredsecrets.com/) - Password Breach Check / Requires Sign-Up
-* [BreachDetective](https://breachdetective.com/) - Password Breach Check / Requires Sign-Up
-
-***
-
-## ▷ Fingerprinting / Tracking
-
-* ⭐ **[CreepJS](https://abrahamjuliot.github.io/creepjs)**, [webkay](https://webkay.robinlinus.com/), [browserrecon](https://www.computec.ch/projekte/browserrecon/?s=scan), [TZP](https://arkenfox.github.io/TZP/tzp.html), [Cover Your Tracks](https://coveryourtracks.eff.org/), [⁠DeviceInfo](https://www.deviceinfo.me/), [⁠BrowserScan](https://www.browserscan.net/) or [PersonalData](https://personaldata.info/) - Tracking / Fingerprinting Tests
-* [ClearURLs](https://docs.clearurls.xyz) / [GitHub](https://github.com/ClearURLs/Addon) / [GitLab](https://gitlab.com/KevinRoebert/ClearUrls) or [URLCleaner](https://urlcleaner.net/) - Clean URLs / Remove Tracking Elements from URLs / Can Break Sites
-* [Webbkoll](https://webbkoll.5july.net/) or [Blacklight](https://themarkup.org/blacklight) - Site Tracking Info
-* [Data Removal Guide](https://inteltechniques.com/workbook.html) - Remove Online Data
-* [GameIndustry](https://gameindustry.eu/en/) - Block Trackers in Desktop / Mobile Games
-* [BrowserLeaks](https://browserleaks.com/), [Do I leak?](https://www.top10vpn.com/tools/do-i-leak/) or [IPLeak.net](https://ipleak.net) - IP Leak Tests
-* [JShelter](https://jshelter.org/) - Prevent Fingerprinting / [Warning](https://github.com/arkenfox/user.js/issues/1729#issuecomment-1739135479) / [Source Code](https://pagure.io/JShelter/webextension)
-* [Locale Switcher](https://chromewebstore.google.com/detail/locale-switcher/kngfjpghaokedippaapkfihdlmmlafcc), [2](https://addons.mozilla.org/en-US/firefox/addon/languageswitch) - Change Language Identifier / [GitHub](https://github.com/locale-switcher/locale-switcher)
-* [AnonymousRedirect](https://adguardteam.github.io/AnonymousRedirect/) - Anonymize Links
-* [X.com Direct](https://greasyfork.org/en/scripts/404632) - Removes t.co Tracking from X.com
-
-***
-
-## ▷ Search Engines
-
-* 🌐 **[Search Engine Party](https://searchengine.party/)** - Privacy Search Engine Comparisons / [GitLab](https://gitlab.com/nitrohorse/search-engines-compare)
-* ↪️ **[SearX Instances](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/storage/#wiki_searx_instances)** - SearX Instance Index / [Docs / Hosting](https://docs.searxng.org/) / [.onion](http://searxspbitokayvkhzhsnljde7rqmn7rvoga6e4waeub3h7ug3nghoad.onion/) / [Matrix](https://matrix.to/#/#searxng:matrix.org) / [GitHub](https://github.com/searxng)
-* ⭐ **[Brave Search](https://search.brave.com/)** - Independent / Supports DDG Bangs / [.onion](https://search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion/)
-* ⭐ **[4get](https://4get.canine.tools/)**, [2](https://4get.ca/) - Metasearch / [Instances](https://4get.ca/instances) / [Source Code](https://git.lolcat.ca/lolcat/4get)
-* ⭐ **[DuckDuckGo](https://start.duckduckgo.com/)** - Metasearch / Bing Based / [AI Free](https://noai.duckduckgo.com/) / [Lite](https://lite.duckduckgo.com/) / [HTML](https://html.duckduckgo.com/) / [Shortcuts](https://duckduckgo.com/bangs), [2](https://github.com/dmlls/yang) / [Subreddit](https://www.reddit.com/r/duckduckgo/)
-* [LibreY](https://search.davidovski.xyz/instances.php) - Metasearch / [GitHub](https://github.com/Ahwxorg/librey/)
-* [⁠Nilch](https://nilch.org/) - AI Free / Metasearch
-* [Mojeek](https://www.mojeek.com/) - Independent / [Subreddit](https://www.reddit.com/r/mojeek/)
-* [YaCy](https://yacy.net/) - Decentralized / P2P Independent / [GitHub](https://github.com/yacy/yacy_search_server)
-* [Startpage](https://www.startpage.com/) - Google Based / [Subreddit](https://www.reddit.com/r/StartpageSearch/)
-* [Degoog](https://github.com/degoog-org/degoog) - Metasearch / [GitHub](https://github.com/fccview/degoog)
-
-***
-
-# ► VPN
-
-* **Note** - It's generally best to use a paid VPN, especially if you have privacy or speed in mind. Free VPNs are mostly useful for things like unblocking websites. Remember to [bind](https://wispydocs.pages.dev/torrenting/) your VPN to your client to avoid ISP letters.
-
-***
-
-* 🌐 **[Techlore Chart](https://vpn.techlore.tech/)** - VPN Comparison Charts
-* 🌐 **[VPN Relationships](https://kumu.io/Windscribe/vpn-relationships)**, [2](https://windscribe.com/vpnmap) - VPN Relationship Map
-* ⭐ **[Cloudflare One](https://one.one.one.one/)** - Free / Unlimited / [Wireguard](https://rentry.co/foss-warp) (kill switch) / [Config Generator](https://colab.research.google.com/drive/1fomBbh0mRxpVoGAY5gYT5zPBnFKsLV9o?usp=sharing) / [Discord](https://discord.com/invite/cloudflaredev) / [Alt Client](https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/alt-warp-clients.md) 
-* ⭐ **[Proton VPN](https://protonvpn.com)** - Free & Paid / Unlimited / [Wireguard](https://protonvpn.com/support/wireguard-configurations) / [Subreddit](https://www.reddit.com/r/ProtonVPN/) / [Telegram](https://t.me/proton_privacy) / [Discord](https://discord.com/invite/proton) / [GitHub](https://github.com/ProtonVPN/) / [Torrent Guide](https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/proton-torrenting.md) 
-* ⭐ **[Windscribe](https://windscribe.com)** - Free & Paid / 10GB Monthly / No Torrenting w/ Free Plan / [Subreddit](https://www.reddit.com/r/Windscribe/) / [GitHub](https://github.com/windscribe)
-* ⭐ **[AirVPN](https://airvpn.org/)** - Paid / [.onion](https://airvpn3epnw2fnsbx5x2ppzjs6vxtdarldas7wjyqvhscj7x43fxylqd.onion/) / [GitHub](https://github.com/AirVPN) / [GitLab](https://gitlab.com/AirVPN)
-* ⭐ **[Mullvad VPN](https://mullvad.net/)** - Paid / [No-Log](https://mullvad.net/en/blog/2023/4/20/mullvad-vpn-was-subject-to-a-search-warrant-customer-data-not-compromised/) / [No Port Forwarding](https://mullvad.net/en/blog/removing-the-support-for-forwarded-ports) / [.onion](https://ao54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion) / [GitHub](https://github.com/mullvad)
-* ⭐ **[IVPN](https://www.ivpn.net/)** - Paid / [No-Log](https://www.ivpn.net/knowledgebase/privacy/how-do-we-react-when-requested-by-an-authority-for-information-relating-to-a-customer/) / [No Port Forwarding](https://www.ivpn.net/blog/gradual-removal-of-port-forwarding/) / [Subreddit](https://www.reddit.com/r/IVPN/) / [GitHub](https://github.com/ivpn)
-* [Firefox VPN](https://support.mozilla.org/en-US/kb/built-in-vpn) - Free / 50GB Monthly
-* [Nym](https://nym.com/) - Paid / [5-Hop Mixnet](https://nym.com/mixnet) / [Subreddit](https://www.reddit.com/r/nym/) / [GitHub](https://github.com/nymtech/nym)
-* [RiseupVPN](https://riseup.net/en/vpn) - Free / Unlimited / No Port Forwarding / [GitHub](https://github.com/riseupnet)
-* [PrivadoVPN](https://privadovpn.com/freevpn) - Free / 10GB Monthly / Unlimited Accounts via [Temp Mail](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/internet-tools#wiki_.25B7_temp_mail)
-* [Calyx VPN](https://calyxos.org/docs/guide/apps/calyx-vpn/) - Free / Unlimited
-* [Bitmask](https://bitmask.net/) - Free / Unlimited / [Android](https://0xacab.org/leap/bitmask_android) / [GitLab](https://0xacab.org/leap/bitmask-vpn)
-
-***
-
-## ▷ VPN Server
-
-* ⭐ **[WireGuard](https://www.wireguard.com/)** - VPN Tunnel / [Guide](https://www.wireguard.com/quickstart/) / [Web UI](https://github.com/wg-easy/wg-easy) / [Source Code](https://www.wireguard.com/repositories/)
-* ⭐ **[Tailscale](https://tailscale.com/)** or **[⁠NetBird](https://netbird.io/)** - WireGuard Mesh
-* [Amnezia](https://amnezia.org/), [2](https://storage.googleapis.com/amnezia/amnezia.org) - VPN Server / [Subreddit](https://www.reddit.com/r/AmneziaVPN/) / [Discord](https://discord.com/invite/JfrKFScw6N) / [Telegram](https://t.me/amnezia_vpn_en) / [GitHub](https://github.com/amnezia-vpn)
-* [OpenVPN](https://openvpn.net/) - VPN Server
-* [WGDashboard](https://wgdashboard.dev/) - WireGuard Panel / AmneziaWG / [Subreddit](https://www.reddit.com/r/WGDashboard/) / [Discord](https://discord.gg/72TwzjeuWm) / [GitHub](https://github.com/donaldzou/WGDashboard)
-* [⁠Twingate](https://www.twingate.com/) - Zero Trust Access Tunnel
-* [⁠Headscale](https://github.com/juanfont/headscale) - Self-Hosted Tailscale
-* [⁠Nebula](https://github.com/slackhq/nebula) or [ZeroTier](https://www.zerotier.com/) - Mesh VPN Server 
-* [IPsec VPN](https://github.com/hwdsl2/setup-ipsec-vpn) - VPN Server
-* [Cloudflare Tunnels](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/) - Application Tunnel / VPN Alternative / [WireGuard](https://gist.github.com/WildeBeast2521/adabae243e0b83e344ceef0422c3fa6d)
-* [Cloud WireGuard Guide](https://github.com/rajannpatel/Pi-Hole-on-Google-Compute-Engine-Free-Tier-with-Full-Tunnel-and-Split-Tunnel-Wireguard-VPN-Configs) - WireGuard + Pi-hole VPN using Google Cloud
-* [tinc VPN](https://www.tinc-vpn.org/) - VPN Tunnel / [GitHub](https://github.com/gsliepen/tinc) / [GitLab](https://gitlab.com/gsliepen/tinc)
-* [WireHole](https://github.com/IAmStoxe/wirehole) - WireGuard + Pi-hole VPN / [Web UI](https://github.com/10h30/wirehole-ui)
-* [OpenConnect](https://gitlab.com/openconnect/openconnect) - SSL VPN / [GUI](https://openconnect.github.io/openconnect-gui/) 
-* [Pritunl](https://pritunl.com/) - VPN Server / [GitHub](https://github.com/pritunl/pritunl)
-* [Algo VPN](https://blog.trailofbits.com/2016/12/12/meet-algo-the-vpn-that-works/) - Cloud VPN / [GitHub](https://github.com/trailofbits/algo)
-* [SShuttle](https://sshuttle.readthedocs.io/en) - SSH VPN Server / [GitHub](https://github.com/sshuttle/sshuttle)
-* [DSVPN](https://github.com/jedisct1/dsvpn) - Simple VPN Server
-* [Openconnect](https://ocserv.gitlab.io/www/index.html) - SSL VPN Server
-
-***
-
-## ▷ VPN Tools
-
-* ↪️ **[Free VPN Configs](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/storage#wiki_free_vpn_configs)**
-* ⭐ **[VPN Binding Guide](https://wispydocs.pages.dev/torrenting/)** - Bind VPN to Torrent Client to Avoid ISP Letters
-* [⁠WireSock](https://wiresock.net/) or [⁠Tunnl](https://tunnl.to/) - WireGuard Split Tunneling Clients
-* [WG Tunnel](https://wgtunnel.com/) - WireGuard Client / AmneziaWG / Android / [Desktop](https://wgtunnel.com/blog/desktop-launch/) / [Telegram](https://t.me/wgtunnel) / [GitHub](https://github.com/wgtunnel)
-* [VPN Hotspot](https://github.com/Mygod/VPNHotspot) - Share VPN Connection over Hotspot / Rooted Android
-* [Gluetun](https://github.com/qdm12/gluetun) - VPN using Docker
-
-***
-
-# ► Proxy
-
-* [Psiphon](https://psiphon.ca/) - Hybrid Proxy VPN App
-* [Lantern](https://lantern.io/) - Proxy App / Slowed Past 250MB / [GitHub](https://github.com/getlantern/lantern)
-* [FreeSocks](https://freesocks.org/) - Shadowsocks App / [GitHub](https://github.com/unredacted/freesocks-control-plane)
-* [Snowflake](https://snowflake.torproject.org/) - Tor Proxy Browser Extension
-* [Censor Tracker](https://censortracker.org/) / [Telegram](https://t.me/CensorTracker_feedback) / [GitHub](https://github.com/censortracker/censortracker), [SmartProxy](https://github.com/salarcode/SmartProxy), [FoxyProxy](https://getfoxyproxy.org/) or [ZeroOmega](https://github.com/zero-peak/ZeroOmega) - Proxy Extensions
-* [Acrylic](https://mayakron.altervista.org/) - Local DNS Proxy
-* [SimpleDnsCrypt](https://github.com/instantsc/SimpleDnsCrypt) or [DNSCrypt](https://dnscrypt.info/) / [GitHub](https://github.com/DNSCrypt/dnscrypt-proxy) - Local DNS Encryption Proxy
-
-***
-
-## ▷ Proxy Servers
-
-* ⭐ **[3X-UI](https://github.com/MHSanaei/3x-ui)** - Proxy Panel / [Telegram](https://t.me/XrayUI) / **[Guide](https://wispydocs.pages.dev/network-censorship-circumvention/)**
-* ⭐ **[Project X](https://github.com/XTLS/Xray-core)** - Xray Proxy Core / [Telegram](https://t.me/projectXray), [2](https://t.me/projectVless)
-* [NaïveProxy](https://github.com/klzgrad/naiveproxy) - Chromium-based Proxy
-* [Hysteria](https://v2.hysteria.network/) - Speed Focused Proxy Protocol / [Telegram](https://t.me/hysteria_github) / [GitHub](https://github.com/apernet/hysteria)
-* [Shadowsocks](https://shadowsocks.org/) - Simple Proxy Protocol / [GitHub](https://github.com/shadowsocks)
-* [sing-box](https://sing-box.sagernet.org/) - Proxy Core / [Telegram](https://t.me/yapug) / [GitHub](https://github.com/SagerNet/sing-box)
-* [Amnezia](https://amnezia.org/self-hosted), [2](https://storage.googleapis.com/amnezia/amnezia.org) - Multi Protocol Server / [Subreddit](https://www.reddit.com/r/AmneziaVPN/) / [Discord](https://discord.com/invite/JfrKFScw6N) / [Telegram](https://t.me/amnezia_vpn_en) / [GitHub](https://github.com/amnezia-vpn)
-* [Hiddify Manager](https://hiddify.com/) - Proxy Panel / [Telegram](https://t.me/hiddify) / [GitHub](https://github.com/hiddify/Hiddify-Manager)
-* [Outline](https://getoutline.org/)- Shadowsocks Server / [Guide](https://docs.getoutline.com/s/hosting/) / [Subreddit](https://www.reddit.com/r/outlinevpn/) / [GitHub](https://github.com/Jigsaw-Code/) 
-* [VpnHood](https://github.com/vpnhood/VpnHood) - Proxy Server
-* [Scramjet](https://docs.titaniumnetwork.org/proxies/scramjet/) / [GitHub](https://github.com/MercuryWorkshop/scramjet/) or [Nebula](https://github.com/NebulaServices/Nebula) - Web Proxy Server
-* [Nginx Proxy Manager](https://nginxproxymanager.com) - Reverse Proxy UI / [Subreddit](https://reddit.com/r/nginxproxymanager) / [GitHub](https://github.com/NginxProxyManager/nginx-proxy-manager)
-
-
-***
-
-## ▷ Proxy Clients
-
-* ⭐ **[v2rayN](https://github.com/2dust/v2rayN)** - Proxy Client / Windows, Mac, Linux
-* ⭐ **[NekoBox](https://matsuridayo.github.io/)** - Proxy Client / Android / [GitHub](https://github.com/MatsuriDayo/NekoBoxForAndroid/)
-* [v2rayNG](https://github.com/2dust/v2rayNG) or [MahsaNG](https://github.com/GFW-knocker/MahsaNG) / [Telegram](https://t.me/s/mahsa_net), [2]( https://t.me/+YIlqV-fl9y4zMmRk) - Proxy Client / Android
-* [Hiddify](https://hiddify.com/) - Proxy Client / All Platforms / [Telegram](https://t.me/hiddify) / [GitHub](https://github.com/hiddify)
-* [Amnezia](https://amnezia.org/), [2](https://storage.googleapis.com/amnezia/amnezia.org) - Proxy Client / All Platforms / [Subreddit](https://www.reddit.com/r/AmneziaVPN/) / [Discord](https://discord.com/invite/JfrKFScw6N) / [Telegram](https://t.me/amnezia_vpn_en) / [GitHub](https://github.com/amnezia-vpn)
-* [Shadowsocks](https://shadowsocks.org/doc/getting-started.html#gui-clients) - Shadowsocks Client / All Platforms / [GitHub](https://github.com/shadowsocks)
-* [sing-box](https://sing-box.sagernet.org/clients/) - Proxy Client / Mac, Android / [Telegram](https://t.me/yapug) / [GitHub](https://github.com/SagerNet/sing-box)
-* [Throne](https://throneproj.github.io/) - Proxy Client / Sing-Box GUI / Windows, Mac, Linux / [GitHub](https://github.com/throneproj/Throne)
-* [V2Box](https://play.google.com/store/apps/details?id=dev.hexasoftware.v2box) / Android or [V2Box](https://apps.apple.com/us/app/v2box-v2ray-client/id6446814690) / iOS - Proxy Client
-* [ClashVerge](https://www.clashverge.dev/) - Proxy Client / Windows, Mac, Linux / [GitHub](https://github.com/clash-verge-rev/clash-verge-rev)
-* [Streisand](https://streisand.pages.dev/) - Proxy Client / Mac, iOS
-* [⁠FlClash](https://github.com/chen08209/FlClash/blob/main/README.md) / Windows, Mac, Linux, Android
-* [husi](https://github.com/xchacha20-poly1305/husi) - Proxy Client / Android
-* [⁠Exclave](https://github.com/dyhkwong/Exclave) - Proxy Client / Android
-* [Proxifier](https://www.proxifier.com/) - Add Proxy Functionality to Apps / Windows, Mac, Android
-* [wireproxy](https://github.com/whyvl/wireproxy) - WireGuard as Proxy / Windows, Mac, Linux
-
-***
-
-## ▷ Anti Censorship
-
-* ↪️ **[Great Firewall Bypass](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/non-eng#wiki_.25B7_great_firewall)**
-* ⭐ **[⁠Project Atlas](https://project-atlas-dbb.pages.dev/)** - Censorship Bypass Guide
-* ⭐ **[⁠Net4people](https://github.com/net4people/bbs/issues)** - Worldwide Censorship Circumvention Discussion
-* ⭐ **[ByeDPIAndroid](https://github.com/dovecoteescapee/ByeDPIAndroid)**, - Network Packet Alter Tool / Android
-* ⭐ **[zapret](https://github.com/bol-van/zapret2)**, **[SpoofDPI](https://github.com/xvzc/SpoofDPI)** or **[GoodbyeDPI](https://github.com/ValdikSS/GoodbyeDPI/)** - Network Packet Alter Tools 
-* ⭐ **[DNSveil](https://msasanmh.github.io/DNSveil/)** - DNS Client / [GitHub](https://github.com/msasanmh/DNSveil)
-* [⁠Geph](https://geph.io/) - Anti-Censorship Proxy / [GitHub](https://github.com/geph-official)
-* [DNSTT.XYZ](https://dnstt.xyz/) / [Telegram](https://t.me/dnstt_xyz) / [GitHub](https://github.com/dnstt-xyz/dnstt_xyz_app), [⁠HTTP Injector](https://play.google.com/store/apps/details?id=com.evozi.injector), [⁠HTTP Custom](https://play.google.com/store/apps/details?id=xyz.easypro.httpcustom), [⁠NetMod VPN](https://play.google.com/store/apps/details?id=com.netmod.syna), [SlipNet](https://github.com/anonvector/SlipNet) / [Troubleshooting](https://t.me/SlipNet_app) / [Telegram](https://t.me/slipnet_chat), [⁠WhiteDNS](https://github.com/iampedii/WhiteDNS) or [DarkTunnel](https://play.google.com/store/apps/details?id=net.darktunnel.app) - Mobile DNS Tunnels / Censorship Bypass
-* [⁠FilterWatch](https://filter.watch/english/) - Censorship News / Articles
-* [ByeByeDPI](https://github.com/romanvht/ByeByeDPI/blob/master/README-en.md), [Rethink DNS](https://rethinkdns.com/app), [⁠Paqet](https://github.com/hanselime/paqet), [PowerTunnel](https://github.com/krlvm/PowerTunnel) or [Green Tunnel](https://github.com/SadeghHayeri/GreenTunnel) - Network Packet Alter / Packet Level Proxies
-* [YouTubeUnblock](https://github.com/Waujito/youtubeUnblock) - Unblock YouTube with SNI Spoof / OpenWrt / Entware Routers
-* [Scamalytics](https://scamalytics.com/) - Check IP Blacklists
-
-***
-
-## ▷ Proxy Sites
-
-* **Note** - Keep in mind many proxy sites log info like IP address, sites visited, etc. They're useful for unblocking sites, but not very useful for privacy.
-
-***
-
-* ↪️ **[Proxy Lists](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/storage#wiki_proxy_lists)**
-* [Titanium Network](https://titaniumnetwork.org/services/) - Multi-Proxy / [Instances](https://discord.gg/unblock) / [Discord](https://discord.gg/unblock) / [GitHub](https://github.com/titaniumnetwork-dev)
-* [SSLSecureProxy](https://www.sslsecureproxy.com/), [2](https://www.4everproxy.com/), [3](https://www.hideip.co/)
-* [ProxyOf2](https://proxyof2.com/)
-* [Phantom](https://phantom.lol/) / [Discord](https://discord.com/invite/goshadow)
-* [Reflect4](https://reflect4.me/), [CroxyProxy](https://www.croxyproxy.com/) or [Blockaway](https://www.blockaway.net/)
-* [ProxyPal](https://proxypal.net/) / [Telegram](https://t.me/PlainProxies)
-* [Proxyium](https://proxyium.com/)
-* [Startpage](https://www.startpage.com/) - Use Anon View / [Subreddit](https://www.reddit.com/r/StartpageSearch/)
-* [Google Translate](https://translate.google.com/) / [Note](https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/google-translate-note.md)
-* [Proxy Checker](https://proxy-checker.net/), [proxy-scraper](https://github.com/iw4p/proxy-scraper) or [proxy-scraper-checker](https://github.com/monosans/proxy-scraper-checker) - Proxy Scrapers / Checkers
-* [CheckSocks5](https://checksocks5.com/) - SOCKS5 Proxy Checker
-* [Knaben.info](https://knaben.info/) - Torrent Site Proxies
+## ▷ 隐私索引
+
+* ⭐ **[The Hitchhiker's Guide](https://anonymousplanet.net/)** - 在线匿名指南 / [GitHub](https://github.com/Anon-Planet/thgtoa)
+* ⭐ **[The OPSEC Bible](http://opbible7nans45sg33cbyeiwqmlp5fu7lklu6jd6f3mivrjeqadco5yd.onion/)** (.onion)、[2](https://bible.beginnerprivacy.com/opsec/) - 在线匿名指南 / [SimpleX Chat](http://nowherejezfoltodf4jiyl6r56jnzintap5vyjlia7fkirfsnfizflqd.onion/simplex.html)
+* ⭐ **[Surveillance Self-Defense](https://ssd.eff.org/)** - 教育指南
+* ⭐ **[The New Oil](https://thenewoil.org/)** - 教育指南 / [GitHub](https://github.com/tnonate/thenewoil)
+* ⭐ **[No Trace](https://www.notrace.how/)** - 教育指南 / [.onion](http://i4pd4zpyhrojnyx5l3d2siauy4almteocqow4bp2lqxyocrfy6prycad.onion/)
+* ⭐ **[Awesome Privacy](https://awesome-privacy.xyz/)** / [GitHub](https://github.com/lissy93/awesome-privacy)、[Awesome Security Hardening](https://github.com/decalage2/awesome-security-hardening) 或 [pluja's Awesome Privacy](https://pluja.github.io/awesome-privacy/) / [GitHub](https://github.com/pluja/awesome-privacy) - 隐私应用 / 服务
+* ⭐ **[Privacy
